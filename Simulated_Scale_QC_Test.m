@@ -36,12 +36,12 @@ meas_load = zeros(num_runs,1);
 % Run loop
 for i = 1:num_runs
     
-    % Calculate cal factor and zero
+    % Calculate load measurement
     meas_load(i) = Calculate_Measured_Load(Y,Z,f,LoadCellProps,Gauge_Repeat);
     
 end
 
-% Plot cal factors
+% Plot load distribution
 figure;
 hist(meas_load,10);
 grid('on');
