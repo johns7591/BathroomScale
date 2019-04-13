@@ -14,10 +14,10 @@
 
 % Resistance at zero load
 LoadCellProps.G1.R1.Zero =  1000; % Ohm
-LoadCellProps.G1.R2.Zero =  1000;  % Ohm
+LoadCellProps.G1.R2.Zero =  1000; % Ohm
 LoadCellProps.G2.R1.Zero =  1000; % Ohm
 LoadCellProps.G2.R2.Zero =  1000; % Ohm
-LoadCellProps.G3.R1.Zero =  1000;  % Ohm
+LoadCellProps.G3.R1.Zero =  1000; % Ohm
 LoadCellProps.G3.R2.Zero =  1000; % Ohm
 LoadCellProps.G4.R1.Zero =  1000; % Ohm
 LoadCellProps.G4.R2.Zero =  1000; % Ohm
